@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>랜덤 색상 뽑기</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>랜덤 색상 뽑기</h1>
+    
+    <div class="color-display">
+      <div id="color-box"></div>
+      <p id="color-code">#667eea</p>
+      <button id="copy-btn" class="copy-btn" title="색상 코드 복사">📋</button>
+    </div>
+    
+    <div class="controls">
+      <button id="generate-btn" class="primary-btn">새로운 색상 뽑기</button>
+      <button id="save-btn" class="secondary-btn">색상 저장</button>
+      <button id="random-palette-btn" class="secondary-btn">팔레트 모드</button>
+    </div>
+    
+    <div id="palette-mode" class="palette-container hidden">
+      <h3>색상 팔레트</h3>
+      <div id="palette-colors" class="palette-grid"></div>
+    </div>
+    
+    <div id="saved-colors" class="saved-container">
+      <h3>저장된 색상</h3>
+      <div id="saved-list" class="saved-grid"></div>
+      <button id="clear-saved" class="clear-btn">모두 삭제</button>
+    </div>
+    
+    <!-- 토스트 메시지 -->
+    <div id="toast" class="toast"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
