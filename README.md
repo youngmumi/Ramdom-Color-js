@@ -21,7 +21,8 @@
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width = "7%"/>
 </p>
 
-> html, css, javascript, aws
+> html, css, javascript: 프론트 엔드
+> aws : 웹 서버 구축
 
 ---
 
@@ -32,7 +33,8 @@
 > <li>색상 저장: 즐겨찾기 목록에 색상을 저장하거나 삭제할 수 있습니다. <br>
 > <li>팔레트 모드: 조화로운 5가지 색상을 한 번에 생성해 팔레트로 제공합니다. <br>
 > <li>반응형 디자인: 모바일 및 데스크톱 환경 모두 지원합니다. <br>
-> <li>토스트 알림: 성공 및 오류 상태를 시각적으로 안내합니다.
+> <li>토스트 알림: 성공 및 오류 상태를 시각적으로 안내합니다. <br>
+> <li>웹서버 구축: AWS를 통해 웹서버를 구축합니다.
 
 ---
 
